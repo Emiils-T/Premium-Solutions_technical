@@ -113,11 +113,6 @@
                     <p class="testimonial-text"><?php the_field("testimonial_3_text_2") ?></p>
                 </div>
             </div>
-
-            <div class="testimonial-nav">
-                <button class="prev">&lt;</button>
-                <button class="next">&gt;</button>
-            </div>
         </section>
     </div>
 

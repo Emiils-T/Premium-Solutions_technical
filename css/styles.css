@@ -1,21 +1,15 @@
 @font-face {
     font-family: "Booster Next FY Bold";
-    src: url("https://db.onlinewebfonts.com/t/e119a39f5b10f3db35f0a7253e32c691.eot");
-    src: url("https://db.onlinewebfonts.com/t/e119a39f5b10f3db35f0a7253e32c691.eot?#iefix") format("embedded-opentype"),
-    url("https://db.onlinewebfonts.com/t/e119a39f5b10f3db35f0a7253e32c691.woff2") format("woff2"),
-    url("https://db.onlinewebfonts.com/t/e119a39f5b10f3db35f0a7253e32c691.woff") format("woff"),
-    url("https://db.onlinewebfonts.com/t/e119a39f5b10f3db35f0a7253e32c691.ttf") format("truetype"),
-    url("https://db.onlinewebfonts.com/t/e119a39f5b10f3db35f0a7253e32c691.svg#Booster Next FY Bold") format("svg");
+    src: url("../fonts/Booster-Next-FY-Bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
 }
 
 @font-face {
     font-family: "Booster Next FY Regular";
-    src: url("https://db.onlinewebfonts.com/t/d4d77772c32c53cda6724c33cca67436.eot");
-    src: url("https://db.onlinewebfonts.com/t/d4d77772c32c53cda6724c33cca67436.eot?#iefix") format("embedded-opentype"),
-    url("https://db.onlinewebfonts.com/t/d4d77772c32c53cda6724c33cca67436.woff2") format("woff2"),
-    url("https://db.onlinewebfonts.com/t/d4d77772c32c53cda6724c33cca67436.woff") format("woff"),
-    url("https://db.onlinewebfonts.com/t/d4d77772c32c53cda6724c33cca67436.ttf") format("truetype"),
-    url("https://db.onlinewebfonts.com/t/d4d77772c32c53cda6724c33cca67436.svg#Booster Next FY Regular") format("svg");
+    src: url("../fonts/Booster-Next-FY-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
 }
 
 h1 {
@@ -522,38 +516,6 @@ p {
     margin-top: 15px;
 }
 
-.testimonial-nav {
-    position: absolute;
-    top: 50%;
-    left: 0;
-    right: 0;
-    display: flex;
-    justify-content: space-between;
-    transform: translateY(-50%);
-}
-
-.testimonial-nav button {
-    background-color: #99B56F;
-    color: white;
-    border: none;
-    width: 20px;
-    height: 20px;
-    display: flex;
-    justify-content: center;
-    cursor: pointer;
-    border-radius: 50%;
-    font-size: 18px;
-    font-family: Arial, serif;
-    position: absolute;
-}
-
-.testimonial-nav .prev {
-    left: 10px;
-}
-
-.testimonial-nav .next {
-    right: 10px;
-}
 
 .contact-section {
     padding-top: 40px;
@@ -759,6 +721,10 @@ input, textarea {
 
     .about-us {
         flex-direction: column;
+    }
+
+    .text-content {
+        padding-right: calc(14% + 20px);
     }
 
     .text-content, .image-content {
