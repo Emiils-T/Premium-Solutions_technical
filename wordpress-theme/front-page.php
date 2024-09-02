@@ -93,7 +93,7 @@
             <h2><?php the_field("testimonial_header") ?></h2>
 
             <div class="client-testimonials">
-                <div class="testimonial">
+                <div class="testimonial active">
                     <img src="<?php the_field("testimonial_1_client_logo") ?>" alt="">
                     <h3><?php the_field("testimonial_1_author") ?></h3>
                     <p><?php the_field("testimonial_1_author_position") ?></p>
@@ -112,6 +112,10 @@
                     <p class="testimonial-text"><?php the_field("testimonial_3_text_1") ?></p>
                     <p class="testimonial-text"><?php the_field("testimonial_3_text_2") ?></p>
                 </div>
+            </div>
+            <div class="testimonial-nav">
+                <button class="prev">&lt;</button>
+                <button class="next">&gt;</button>
             </div>
         </section>
     </div>
